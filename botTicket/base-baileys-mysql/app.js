@@ -69,11 +69,11 @@ const QRPortalWeb = require('@bot-whatsapp/portal');
 const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const MySQLAdapter = require('@bot-whatsapp/database/mysql');
 
-const MYSQL_DB_HOST = 'localhost';
+const MYSQL_DB_HOST = 'viaduct.proxy.rlwy.net';
 const MYSQL_DB_USER = 'root';
-const MYSQL_DB_PASSWORD = '123456789';
-const MYSQL_DB_NAME = 'bot';
-const MYSQL_DB_PORT = '3306';
+const MYSQL_DB_PASSWORD = 'EbcagC-EfhBeA3ghB6Hf--b11aB-2G21';
+const MYSQL_DB_NAME = 'railway';
+const MYSQL_DB_PORT = '50722';
 
 const flowDatosReserva = addKeyword(['reservar', '3'])
     .addAnswer('Entendido. Hemos registrado tu interés. Pronto nos pondremos en contacto para confirmar tu reserva. Gracias por confiar en nuestra inmobiliaria.\nEscribe "menu" para volver al menú principal.');
