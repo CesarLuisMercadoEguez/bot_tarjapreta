@@ -92,7 +92,7 @@ const flowComprarEntradas = addKeyword(['4'])
 
 // Flow del menú principal
 const flowMenu = addKeyword(['menu', 'hola', 'ole', 'alo', 'buenas', 'saludo', 'Hola'])
-    .addAnswer('🙌 ¡Hola! Bienvenido a nuestro evento. ¿En qué puedo ayudarte hoy?')
+    .addAnswer('🙌 ¡Hola! Bienvenido a tarja preta. ¿En qué puedo ayudarte hoy?')
     .addAnswer([
         '👉 *1* para conocer los sectores del evento.',
         '👉 *2* para conocer los precios de las entradas.',
